@@ -234,3 +234,37 @@ position: relative;
   top: 12px;
   right: 10px;
 }
+
+.form-wysiwyg{
+  border: 1px solid #DBDBDB;
+  border-radius: 10px;
+  padding: 12px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.form-wysiwyg-control{
+  display: flex;
+  gap: 9px;
+  border-bottom: 1px solid grey;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 5px;
+}
+.form-wysiwyg-control__button{
+  width: 20px;
+  height: 20px;
+}
+.form-wysiwyg-form__textForm{
+  width:100%;
+  height: 100%;
+  display:block;
+  font-size: 12px;
+  border:none;
+  resize: none;
+  /*overflow: hidden;*/
+}
+
+.form-wysiwyg-form__textForm:focus{
+  outline: none ;
+}
